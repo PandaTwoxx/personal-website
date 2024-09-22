@@ -2,7 +2,7 @@ import Fuse from "fuse.js";
 import { useEffect, useRef, useState, useMemo, type FormEvent } from "react";
 import Card from "@components/Card";
 import type { CollectionEntry } from "astro:content";
-
+//TODO Add projects
 export type SearchItem = {
   title: string;
   description: string;
