@@ -4,7 +4,7 @@ import { generateOgImageForProject } from "@utils/generateOgImages";
 import { slugifyStr } from "@utils/slugify";
 
 export async function getStaticPaths() {
-  const projects = await getCollection("blog").then(p =>
+  const projects = await getCollection("project").then(p =>
     p.filter(({ data }) => !data.draft && !data.ogImage)
   );
 

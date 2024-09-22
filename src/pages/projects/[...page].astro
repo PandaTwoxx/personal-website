@@ -5,7 +5,7 @@ import type { GetStaticPaths } from "astro";
 import { getCollection } from "astro:content";
 
 export const getStaticPaths = (async ({ paginate }) => {
-  const projects = await getCollection("blog", ({ data }) => !data.draft);
+  const projects = await getCollection("project", ({ data }) => !data.draft);
   return paginate(projects, { pageSize: SITE.projectPerPage });
 }) satisfies GetStaticPaths;
 
