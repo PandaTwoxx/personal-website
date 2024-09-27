@@ -1,7 +1,7 @@
 ---
 title: The Map Project
 author: Weston Gorczyca
-pubDatetime: 2022-09-21T05:17:19Z
+pubDatetime: 2024-09-22T18:04:41.191Z
 slug: the-map-project
 featured: true
 draft: false
@@ -20,7 +20,9 @@ Map platform that stores friend locations
 
 # Setup guidelines
 
-1. Clone the repository
+1. Clone the repository with
+```bash
+```
 2. Run the following commands:
 
 ```bash
