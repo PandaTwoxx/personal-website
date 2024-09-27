@@ -2,6 +2,7 @@
 title: The Map Project
 author: Weston Gorczyca
 pubDatetime: 2024-09-22T18:04:41.191Z
+modDatetime: 2024-09-27T21:19:01.739Z
 slug: the-map-project
 featured: true
 draft: false
