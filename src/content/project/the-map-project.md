@@ -22,19 +22,42 @@ Map platform that stores friend locations
 
 1. Clone the repository with
 ```bash
+git clone PandaTwoxx/Map
 ```
-2. Run the following commands:
 
+2. Install required things:
+
+To install poetry/pipx:
+- 1. Install homebrew
+- 2. Run these commands
+```bash
+brew install pipx
+pipx install poetry
+```
+
+To install homebrew
+
+- 1. Sit down
+- 2. Question your life choices
+- 3. Run this command:
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Install docker yourself because I can't spend all my life coaching you to do basic things
+
+3. Run the following commands:
 ```bash
 poetry install
 poetry shell
 python3 manage.py run
 ```
 
-3. Or run
+4. Or run
 
 ```bash
 docker compose up --build
 ```
 
-4. Open the browser and go to `http://localhost:8080/`
+
+5. Open the browser and go to `http://localhost:8080/`
