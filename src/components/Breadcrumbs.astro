@@ -19,8 +19,8 @@ breadcrumbList[0] === "projects" &&
 
 // if breadcrumb is Home > Project_tags
 // replace Projects with Project Tags
-// breadcrumbList[0] === "project_tags" &&
-//   breadcrumbList.splice(0, 2, `Projects Tags`);
+breadcrumbList[0] === "project_tags" &&
+  breadcrumbList.splice(0, 1, `Project Tags`);
 
 // if breadcrumb is Home > Tags > [tag] > [page] <etc>
 // replace [tag] > [page] with [tag] (page number)
@@ -55,7 +55,7 @@ breadcrumbList[0] === "tags" &&
           </li>
         ) : (
           <li>
-            <a href={`/${breadcrumb}/`}>{breadcrumb}</a>
+            <a href={`/${breadcrumb.toLowerCase().replace(' ','_')}/`}>{breadcrumb}</a>
             <span aria-hidden="true">&raquo;</span>
           </li>
         )
