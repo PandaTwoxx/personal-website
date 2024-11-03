@@ -3,17 +3,23 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Hi! I am Wes and this is my personal website. It is still under development as of Sep 20, 2024.
+Hey, I'm Wes. This my personal website. I'm 10 years old(turning 11). 
 
 Here is an inspirational quote:
 
 > Food is Yummy.
+
+I also made this quote:
+
+> Toast is good.
 
 This is my profile pic `:)`
 
 <div>
   <img src="/assets/Panda.jpeg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
+
+Bye
 
 <!-- 
 ## Tech Stack
