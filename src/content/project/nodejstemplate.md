@@ -13,7 +13,6 @@ ogImage: https://res.cloudinary.com/noezectz/v1663745737/astro-paper/astropaper-
 description:
   Node JS Template simplifies the process of making node http apps
 ---
-
 # NodeJS-Template
 #### To develop with this system, you need to know typescript
 A Node.Js template
@@ -162,7 +161,7 @@ router.addRoute(
 #### 🎉 Congrats, you just learned how to use this system
 ### Here's an example program
 ```typescript
-import { Router, Plugin, RouteHandler } from "./your-router-file";
+import { Router, Plugin, RouteHandler, renderTemplate, EnhancedServerResponse  } from "./nodeHttpRouter";
 
 const router = new Router();
 
@@ -207,7 +206,7 @@ router.addRoute(
   "GET",
   "/template",
   async (req, res) => {
-    await res.renderTemplate("example.html", { name: "Weston" });
+    await renderTemplate("example.html", { name: "Weston" });
   }
 );
 
@@ -219,7 +218,7 @@ router.addRoute("POST", "/submit", async (req, res, params, query, body) => {
 
 // Route: Redirect example
 router.addRoute("GET", "/redirect", (req, res) => {
-  res.redirect("/greet");
+    (res as EnhancedServerResponse).redirect("/greet");
 });
 
 // Route with parameters
