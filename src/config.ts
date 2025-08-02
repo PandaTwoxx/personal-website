@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://weston.tickitechnology.com", // replace this with your deployed domain
   author: "Weston Gorczyca",
   profile: "https://github.com/PandaTwoxx/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "My personal site.",
   title: "Weston Gorczyca",
   ogImage: "assets/Panda.jpeg",
   lightAndDarkMode: true,
