@@ -4,7 +4,7 @@ author: Weston Gorczyca
 pubDatetime: 2024-12-01T23:14:09.221Z
 modDatetime: 2024-12-01T23:14:09.221Z
 slug: node-js-template
-featured: true
+featured: false
 draft: false
 tags:
   - typescript
