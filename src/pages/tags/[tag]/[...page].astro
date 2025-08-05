@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import TagPosts from "@layouts/TagPosts.astro";
+import Tag from "@layouts/Tag.astro";
 import getUniqueTags from "@utils/getUniqueTags";
 import getPostsAndProjectsByTag from "@utils/getPostsAndProjectsByTag";
 import type { GetStaticPathsOptions } from "astro";
@@ -28,4 +28,4 @@ const { tag } = params;
 const { page, tagName } = Astro.props;
 ---
 
-<TagPosts {page} {tag} {tagName} />
+<Tag {page} {tag} {tagName} />
