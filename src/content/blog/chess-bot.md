@@ -1,15 +1,15 @@
 ---
 author: Weston Gorczyca
 pubDatetime: 2025-08-2T22:22:46.836Z
-title: Val Town
-slug: val-town
+title: A chess bot
+slug: chess-bot
 featured: true
 draft: false
 tags:
   - web
   - new
 description:
-  My new project
+  A new dumb chess bot
 ---
 Hey, Wes here
 
