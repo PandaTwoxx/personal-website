@@ -1,17 +1,14 @@
 import type { CollectionEntry } from "astro:content";
-import projectFilter from "./projectFilter";
+import postFilter from "./postFilter";
 
 const getSortedProjects = (projects: CollectionEntry<"project">[]) => {
   return projects
-    .filter(projectFilter)
+    .filter(postFilter)
     .sort(
       (a, b) =>
         Math.floor(
-          new Date(b.data.modDatetime ?? b.data.pubDatetime).getTime() / 1000
-        ) -
-        Math.floor(
-          new Date(a.data.modDatetime ?? a.data.pubDatetime).getTime() / 1000
-        )
+          new Date(b.data.pubDatetime).getTime() / 1000
+        ) - Math.floor(new Date(a.data.pubDatetime).getTime() / 1000)
     );
 };
 
