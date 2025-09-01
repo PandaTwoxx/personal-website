@@ -15,8 +15,6 @@ Hey, Wes here
 
 I just wanted to let you know that I have a new chess bot app at [here](https://dumb-fish-chess.web.app)
 
-You can download it [here](https://sc.warmraisin.com/Dumb_Fish.dmg)!
-
-Sorry, for now the icon doesnt load and the I haven't signed it properly so you will need to go Settings > Privacy & Security > Scroll down > Open Anyway
+You can download it for mac [here](https://sc.warmraisin.com/Dumb-Fish.dmg) and for android [here](https://sc.warmraisin.com/Dumb-Fish.apk)!
 
 Cya :D

