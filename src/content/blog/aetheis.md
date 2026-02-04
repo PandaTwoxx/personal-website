@@ -24,4 +24,10 @@ Here is the install link
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/PandaTwoxx/Aetheis/refs/heads/main/install.sh)"
 ```
 
+If you are on a managed device like a school laptop or don't have sudo, run this
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/PandaTwoxx/Aetheis/refs/heads/main/install.sh)" -- --local
+```
+
 K bai
