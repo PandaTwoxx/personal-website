@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Hey, I'm Wes. This my personal website. I'm 10 years old(turning 11). 
+Hey, I'm Wes. This my personal website. I'm 12 years old. 
 
 Here is an inspirational quote:
 
