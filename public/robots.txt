@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://weston.tickitechnology.com/sitemap-index.xml
