@@ -14,12 +14,12 @@ description:
   D Sharp is a simple programming language.
 ---
 
-D Sharp is an interpreted programming language with the these math operations: 
+D Sharp is an interpreted programming language with these math operations: 
 ```text
 () ^ * / + -
 ```
 
-Here is an example scriptexample script:
+Here is an example script:
 ```text
 a = 1 + 2 + 3;
 b = 1 * 2 * 3;
@@ -64,4 +64,4 @@ sets a to { 1 + 2 + 3 }
 evaluates { 1 + 2 + 3 } to 6
 ```
 
-The source is accessible [here](https://github.com/PandaTwoxx/D-Sharp/tree/main)
+The source code is accessible [here](https://github.com/PandaTwoxx/D-Sharp/tree/main)
